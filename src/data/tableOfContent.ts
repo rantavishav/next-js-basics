@@ -29,10 +29,6 @@ const tableOfContent = [
         path: "/next-js",
       },
       {
-        title: "Code Execution",
-        path: "/next-js/code-execution",
-      },
-      {
         title: "Rendering",
         path: "/next-js/rendering",
       },
@@ -74,10 +70,6 @@ export const tableContentArray = [
   {
     title: "What is Next.js",
     path: "/next-js",
-  },
-  {
-    title: "Code Execution",
-    path: "/next-js/code-execution",
   },
   {
     title: "Rendering",

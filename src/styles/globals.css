@@ -9,6 +9,7 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   background-color: #121212;
+  font-size: 20px;
 }
 
 h1 {
@@ -35,7 +36,8 @@ body blockquote p {
 body p {
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
 body li {
   margin-top: 14px;
@@ -45,7 +47,7 @@ body a {
   text-decoration: none;
   color: #17ffd1;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 body a:hover {
   text-decoration: underline;
@@ -59,6 +61,9 @@ ul {
   padding: 0;
 }
 
+.bold {
+  font-weight: 700;
+}
 .main-section {
   width: 100vw;
   max-width: 960px;
@@ -100,4 +105,13 @@ ul {
 
 .color-green {
   color: #17ffd1;
+}
+.color-dark-green {
+  color: #00e676;
+}
+.border-yellow {
+  border-color: #ffea00;
+}
+.border-blue {
+  border-color: #00b0ff;
 }

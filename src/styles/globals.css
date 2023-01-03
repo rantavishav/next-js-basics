@@ -73,6 +73,13 @@ ul {
   margin-right: auto;
   background-color: inherit;
 }
+.image-section {
+  width: 100vw;
+  max-width: 1200px;
+  margin-top: 100px;
+  margin-bottom: 0;
+  background-color: inherit;
+}
 
 .main-heading {
   font-size: 4rem;
@@ -114,4 +121,8 @@ ul {
 }
 .border-blue {
   border-color: #00b0ff;
+}
+
+.ml-auto {
+  margin-left: auto;
 }

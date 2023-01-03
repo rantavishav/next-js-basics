@@ -45,8 +45,8 @@ const tableOfContent = [
         path: "/next-js/static-site-generation",
       },
       {
-        title: "Middleware",
-        path: "/next-js/middleware",
+        title: "When To Use What?",
+        path: "/next-js/usage",
       },
     ],
   },
@@ -88,7 +88,7 @@ export const tableContentArray = [
     path: "/next-js/static-site-generation",
   },
   {
-    title: "Middleware",
-    path: "/next-js/middleware",
+    title: "When To Use What?",
+    path: "/next-js/usage",
   },
 ];

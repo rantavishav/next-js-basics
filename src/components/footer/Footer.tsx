@@ -25,7 +25,7 @@ const Footer = () => {
               ← {tableContentArray[prevTopic].title}
             </Link>
           )}
-          {nextTopic > 0 && (
+          {nextTopic < tableContentArray.length && (
             <Link
               className={styles.footerNavLink}
               href={tableContentArray[nextTopic].path}

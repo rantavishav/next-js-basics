@@ -17,41 +17,41 @@ export default function Learn() {
         </p>
 
         <ul className="task-list">
-          <li className="task-list-item">
+          <li className="task-list-item list-style-none">
             <input type="checkbox" disabled /> What is Next.js
           </li>
-          <li className="task-list-item">
+          <li className="task-list-item list-style-none">
             <input type="checkbox" disabled /> How does Next.js compare to
             React.js
           </li>
-          <li className="task-list-item">
+          <li className="task-list-item list-style-none">
             <input type="checkbox" disabled /> When would you use Next.js
           </li>
-          <li className="task-list-item">
+          <li className="task-list-item list-style-none">
             <input type="checkbox" disabled /> How Next works
           </li>
-          <li className="task-list-item">
+          <li className="task-list-item list-style-none">
             <input type="checkbox" disabled /> Creating pages and components
           </li>
-          <li className="task-list-item">
+          <li className="task-list-item list-style-none">
             <input type="checkbox" disabled /> Prerendering
           </li>
-          <li className="task-list-item">
+          <li className="task-list-item list-style-none">
             <input type="checkbox" disabled /> SEO
           </li>
-          <li className="task-list-item">
+          <li className="task-list-item list-style-none">
             <input type="checkbox" disabled /> Static and dynamic routing
           </li>
-          <li className="task-list-item">
+          <li className="task-list-item list-style-none">
             <input type="checkbox" disabled /> Navigating
           </li>
-          <li className="task-list-item">
+          <li className="task-list-item list-style-none">
             <input type="checkbox" disabled /> Styling
           </li>
-          <li className="task-list-item">
+          <li className="task-list-item list-style-none">
             <input type="checkbox" disabled /> Fetching data
           </li>
-          <li className="task-list-item">
+          <li className="task-list-item list-style-none">
             <input type="checkbox" disabled /> Deployment
           </li>
         </ul>

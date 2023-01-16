@@ -126,3 +126,7 @@ ul {
 .ml-auto {
   margin-left: auto;
 }
+
+.list-style-none {
+  list-style: none;
+}

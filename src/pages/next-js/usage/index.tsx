@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+
 import { Note } from "../../../components";
 import { NEXT_JS_FLOW } from "../../../images";
 
@@ -14,40 +15,37 @@ const NextJsUsage = () => {
             <li className="task-list-item">
               Client-side data fetching is useful when your page doesn&apos;t
               require SEO indexing,
-              <li className="task-list-item">
-                When you don&apos;t need to pre-render your data
-              </li>
-              <li className="task-list-item">
-                When the content of your pages needs to update frequently.
-              </li>
-              <Note>
-                It&apos;s important to note that using client-side data fetching
-                can affect the performance of your application and the load
-                speed of your pages. This is because the data fetching is done
-                at the time of the component or pages mount, and the data is not
-                cached.
-              </Note>
             </li>
+            <li className="task-list-item">
+              When you don&apos;t need to pre-render your data
+            </li>
+            <li className="task-list-item">
+              When the content of your pages needs to update frequently.
+            </li>
+            <Note>
+              It&apos;s important to note that using client-side data fetching
+              can affect the performance of your application and the load speed
+              of your pages. This is because the data fetching is done at the
+              time of the component or pages mount, and the data is not cached.
+            </Note>
           </ul>
 
           <h4 className="color-green"> When To use Server Side Rendering</h4>
           <ul className="task-list">
+            <li className="task-list-item">When you require SEO indexing.</li>
             <li className="task-list-item">
-              When you require SEO indexing.
-              <li className="task-list-item">
-                If you need to render a page whose data must be fetched at
-                request time.
-              </li>
-              <li className="task-list-item">
-                If you data changes frequenlty on the backend and you need
-                updated data on each request.
-              </li>
-              <Note>
-                Beacuse it is rendered on the server on every request, it is not
-                suitable for pages that have a almost static data. This is
-                because it will slow down the performance of your application.
-              </Note>
+              If you need to render a page whose data must be fetched at request
+              time.
             </li>
+            <li className="task-list-item">
+              If you data changes frequenlty on the backend and you need updated
+              data on each request.
+            </li>
+            <Note>
+              Beacuse it is rendered on the server on every request, it is not
+              suitable for pages that have a almost static data. This is because
+              it will slow down the performance of your application.
+            </Note>
           </ul>
 
           <h4 className="color-green"> When To use Static Site Generation</h4>
@@ -78,12 +76,12 @@ const NextJsUsage = () => {
           </p>
         </div>
       </main>
-      <main className="image-section ml-auto">
+      <main className="image-section ">
         <Image
           src={NEXT_JS_FLOW}
           alt="Server side rendering"
-          width={960}
-          height={1000}
+          width={1551}
+          height={768}
         />
       </main>
     </>
